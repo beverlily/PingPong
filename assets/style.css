@@ -1,3 +1,5 @@
+/* Miscellaneous */
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
@@ -23,6 +25,12 @@ p {
   line-height:  1.7em;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+/* Header */
+
 #logo {
   float: left;
   margin-right: 10px;
@@ -36,6 +44,53 @@ p {
 }
 
 #logo:hover {
-    color: #c757d5;
+    color: #e1b8f5;
     text-decoration: none;
+}
+
+header.navbar {
+  background-color: rgb(166, 111, 191);
+  border-bottom: none;
+  position: relative;
+}
+
+ul.nav.navbar-nav > li > a {
+  color: #fff;
+  padding: 0px 5px;
+  transition: 0.25s;
+}
+
+ul.nav.navbar-nav > li > a:hover {
+  color: #e1b8f5;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer  small {
+    float: left;
+}
+
+footer  ul {
+    float: right;
+    list-style: none;
+}
+
+ul li {
+  float: left;
+  margin: 15px;
 }
