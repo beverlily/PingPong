@@ -1,0 +1,23 @@
+{
+  "name": "PingPong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beverlily/PingPong.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beverlily/PingPong/issues"
+  },
+  "homepage": "https://github.com/beverlily/PingPong#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
