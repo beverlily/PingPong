@@ -56,7 +56,7 @@ header.navbar {
 
 ul.nav.navbar-nav > li > a {
   color: #fff;
-  padding: 0px 5px;
+  padding: 15px 5px;
   transition: 0.25s;
 }
 
@@ -92,5 +92,5 @@ footer  ul {
 
 ul li {
   float: left;
-  margin: 15px;
+  margin: 0px 15px;
 }
