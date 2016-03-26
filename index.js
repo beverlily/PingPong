@@ -9,5 +9,5 @@ var app = express(); //express object
 app.use(require('./controllers/static'));
 
 var server = app.listen(port, function(){
-    console.log('Server listening on', port);
+    console.log('PingPong is running on port', port);
 });
