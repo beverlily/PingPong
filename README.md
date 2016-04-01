@@ -12,5 +12,11 @@ npm install
 and can be run using:
 
 ```
-node index.js
+gulp run
+```
+
+***Please note that PingPong uses Gulp.***
+In order to install Gulp with npm, you can install it like so:
+```
+npm install --global gulp
 ```
