@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/beverlily/PingPong#readme",
   "dependencies": {
+    "bootstrap-sass": "^3.3.6",
     "css-loader": "^0.23.1",
     "express": "^4.13.4",
     "fs": "0.0.2",
