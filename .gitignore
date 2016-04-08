@@ -34,3 +34,8 @@ node_modules
 
 # static assets
 assets
+
+# Bower components
+bower_components
+
+*.DS_Store

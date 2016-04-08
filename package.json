@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/beverlily/PingPong#readme",
   "dependencies": {
+    "css-loader": "^0.23.1",
     "express": "^4.13.4",
     "fs": "0.0.2",
     "gulp": "^3.9.1",
@@ -26,6 +27,9 @@
     "gulp-nodemon": "^2.0.6",
     "gulp-sass": "^2.2.0",
     "gulp-sourcemaps": "^1.6.0",
-    "gulp-uglify": "^1.5.3"
+    "gulp-uglify": "^1.5.3",
+    "gulp-uglifycss": "^1.0.6",
+    "sass-loader": "^3.2.0",
+    "sass-resources-loader": "^1.0.2"
   }
 }
