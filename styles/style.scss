@@ -1,7 +1,13 @@
+/* Mixins and Variables */
+
+$light_gray: #777;
+
 /* Miscellaneous */
 
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1;
+@for $index from 1 through 6 {
+    h#{$index} {
+      line-height: 1;
+    }
 }
 
 h1 {
@@ -41,11 +47,11 @@ a:hover {
   padding-top: 9px;
   font-weight: bold;
   transition: 0.25s;
-}
 
-#logo:hover {
-    color: #e1b8f5;
-    text-decoration: none;
+  &:hover {
+      color: #e1b8f5;
+      text-decoration: none;
+  }
 }
 
 header.navbar {
@@ -71,26 +77,26 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
-}
 
-footer a {
-  color: #555;
-}
+  a {
+    color: #555;
+  }
 
-footer a:hover {
-  color: #222;
-}
+  a:hover {
+    color: #222;
+  }
 
-footer  small {
-    float: left;
-}
+  small {
+      float: left;
+  }
 
-footer  ul {
-    float: right;
-    list-style: none;
-}
+  ul {
+      float: right;
+      list-style: none;
 
-ul li {
-  float: left;
-  margin: 0px 15px;
+      li {
+        float: left;
+        margin: 0px 15px;
+      }
+  }
 }
