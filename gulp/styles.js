@@ -3,7 +3,7 @@ var sass = require('gulp-sass');
 var uglifycss = require('gulp-uglifycss')
 
 var config = {
-  bootstrapDir: './bower_components/bootstrap-sass'
+  bootstrapDir: './node_modules/bootstrap-sass'
 };
 
 gulp.task('styles', function() {
